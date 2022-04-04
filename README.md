@@ -2,8 +2,8 @@
 
 ## Description
 This compression algorithm replaces multiple occurences of strings with back-references.
-These references are written as: '%d,l', where 'd' is a negative offset and 'l' the length of the reference.
-The escape sequence for a single '%' is '%%'.
+These references are written as: `%d,l`, where `d` is a negative offset and `l` the length of the reference.
+The escape sequence for a single `%` is `%%`.
 
 ## Usage
 This project provides both a library and an executable using it.
@@ -24,6 +24,6 @@ meson install -C build
 ```
 
 ## TODO
-- Implement the '-l' option
+- Implement the `-l` option
 - Improve compression performance
 - Provide man pages and pkg-config files
